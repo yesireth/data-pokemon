@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Outfit:wght@300;500&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header ul{
+   
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+.categorie-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.categorie-btn img {
+    width: 100px;
+}
+.categorie-btn button {
+   
+    background-color: transparent;
+   border: none;
+}
+
+
