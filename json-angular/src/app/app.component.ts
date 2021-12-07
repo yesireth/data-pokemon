@@ -33,6 +33,8 @@ export class AppComponent {
     this.showPokemonWater = this.pokemonAll.filter((items:any) => items.type == "water")
     this.showPokemonGrass = []
     this.showPokemonPoison = []
+    this.showPokemonNormal = []
+    this.showPokemonFire = []
     console.log(this.showPokemonWater);
   }
 
@@ -41,24 +43,32 @@ export class AppComponent {
     this.showPokemonGrass= this.pokemonAll.filter((items:any) =>items.type == "grass")
     this.showPokemonWater = []
     this.showPokemonPoison = []
+    this.showPokemonFire = []
+    this.showPokemonNormal = []
     console.log(this.showPokemonGrass);
   }
   filterByTypePoison(){
  this.showPokemonPoison = this.pokemonAll.filter((items:any) =>items.type == "poison")
  this.showPokemonWater = []
  this.showPokemonGrass = []
+ this.showPokemonFire = []
+ this.showPokemonNormal = []
  console.log(this.showPokemonPoison);
   }
   filterByTypeFire(){
     this.showPokemonFire = this.pokemonAll.filter((items:any) =>items.type == "fire")
     this.showPokemonWater = []
     this.showPokemonGrass = []
+    this.showPokemonPoison = []
+    this.showPokemonNormal = []
     console.log(this.showPokemonFire);
   }
   filterByTypeNormal(){
     this.showPokemonNormal = this.pokemonAll.filter((items:any) =>items.type == "normal")
     this.showPokemonWater = []
     this.showPokemonGrass = []
+    this.showPokemonPoison = []
+    this.showPokemonFire = []
     console.log(this.showPokemonNormal);
   }
 }

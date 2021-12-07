@@ -25,51 +25,24 @@
   <section class="container-pokemon">
           <ul class ="pokemon-menu" *ngFor="let water of showPokemonWater">
               <li>{{water.name}}</li>
-              <li>{{water.type}}</li>
-              <li><img src="{{water.img}}" alt=""></li>
+              <li>{{water.type}}</li> 
+             <li><img src="{{water.img}}" alt=""></li>
           </ul>
     <ul class ="pokemon-menu" *ngFor="let grass of showPokemonGrass" >
         <li>{{grass.name}}</li>
-        <li>{{grass.type}}</li>
+        <li><img src="{{grass.img}}" alt=""></li>
     </ul>
     <ul class ="pokemon-menu" *ngFor="let poison of showPokemonPoison" >
       <li>{{poison.name}}</li>
-      <li>{{poison.type}}</li>
+      <li><img src="{{poison.img}}" alt=""></li>
   </ul>
   <ul class ="pokemon-menu" *ngFor="let fire of showPokemonFire" >
     <li>{{fire.name}}</li>
-    <li>{{fire.type}}</li>
+    <li><img src="{{fire.img}}" alt=""></li>
 </ul>
 <ul class ="pokemon-menu" *ngFor="let flying of showPokemonNormal" >
   <li>{{flying.name}}</li>
-  <li>{{flying.type}}</li>
+  <li><img src="{{flying.img}}" alt=""></li>
 </ul>
 </section>
- <!-- Sección de slide -->
-  <!-- <section class="container-slider">
-  <section class="slider">
-    <figure class="slide active" *ngFor="let water of showPokemonWater">
-      <img src="{{water.img}}" alt="pokemon-water">
-      <figcaption>Las mascotas oficiales de las Olimpiadas de Río 2016 son Vinicius y Tom, en homenaje a los ídolos de la música brasileña Vinicius de Moraes y Tom Jobim.</figcaption>
-    </figure>
-   <figure class="slide">
-      <img src="images/slide2.jpg" alt="Ayuda femenina">
-      <figcaption>La estadounidense Abbey D'Agostino ayuda a la atleta neozelandesa Nikki Hamblin luego de su caída demostrando la nobleza de su espíritu olímpico.</figcaption>
-    </figure>
-    <figure class="slide">
-      <img src="{{grass.img}}" alt="pokemon-grass">
-      <figcaption>Se conformó por primera vez un Equipo Olímpico de Atletas Refugiados que fue representado por 10 atletas.</figcaption>
-    </figure>
-    <figure class="slide">
-      <img src="images/4.jpg" alt="Protestas mujeres iranies">
-       <figcaption>Una Iraní alzó la voz para protestar en los Juegos Olímpicos de Río 2016 clamando que se permita a las mujeres iraníes entrar en los estadios en su pais.</figcaption>
-     </figure>
-    <section class="buttons-slides">
-      <section class="btn-slide active"> </section >
-      <section class="btn-slide"> </section >
-      <section class="btn-slide"> </section >
-      <section class="btn-slide"> </section >
-    </section>
-  </section>
-</section>   <!-- Cierre de Sección de Slide -->
-<!-- </header> --> -->
+ 
